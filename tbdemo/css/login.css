@@ -1,0 +1,29 @@
+#wk{
+    width:100%;
+    border:1px red solid;
+    margin:25px;
+}
+#logo{
+    height:80px;
+    width:80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin:auto;
+    margin-top:55px;
+}
+#logo img{
+    height:100%;
+    width:100%;
+}
+#form{
+    display:flex;
+    align-content: center;
+    margin-top:40px;
+    width:100px;
+}
+#form form input{
+    outline: none;
+    border:none;
+    border-bottom: 1px #FF5000 solid;
+}
