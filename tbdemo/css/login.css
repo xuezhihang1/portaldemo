@@ -1,8 +1,3 @@
-#wk{
-    width:100%;
-    border:1px red solid;
-    margin:25px;
-}
 #logo{
     height:80px;
     width:80px;
@@ -11,19 +6,50 @@
     justify-content: center;
     margin:auto;
     margin-top:55px;
+    position: relative;
 }
 #logo img{
     height:100%;
     width:100%;
 }
-#form{
-    display:flex;
-    align-content: center;
-    margin-top:40px;
-    width:100px;
+/*第二部分*/
+#fm{
+    padding:30px;
 }
-#form form input{
-    outline: none;
+#fm form{
+    width:100%;
+}
+#fm form input{
+    width:100%;
+    height:50px;
     border:none;
-    border-bottom: 1px #FF5000 solid;
+    outline:none;
+    margin-bottom:10px;
+    border-bottom:1px #FF5000 solid;
+    font-size: 17px;
+    color: #B5B5B5;
+}
+#ip-1{
+    position: relative;
+    padding-top: 20px
+}
+#fm-3{
+    height:80px;
+    width:100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333;
+    padding-top: 15px;
+}
+#fm-4{
+    width:100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FF5C00;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
