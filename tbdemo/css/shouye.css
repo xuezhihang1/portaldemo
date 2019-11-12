@@ -88,8 +88,6 @@
 #zb{
     display: flex;
     position: absolute;
-    justify-content: space-around;
-    align-items: center;
     width:100%;
 }
 #zb-1{
@@ -206,15 +204,16 @@
 /*底部功能栏*/
 #dbl{
     width:100%;
+    height:50px;
     display: flex;
     position: fixed;
     justify-content: space-around;
     align-items: center;
-    bottom:25px;
+    bottom: 10px;
 }
 .dbl-1{
-    width:20px;
-    height:20px;
+    width:22px;
+    height:22px;
 }
 .dbl-1 img{
     height:100%;
@@ -223,20 +222,10 @@
 #dbl div div{
     width:50px;
     display: flex;
-    position: absolute;
+    position: relative;
+    justify-content: space-around;
     align-items: center;
     color: #B0B0B0;
     font-size: 8px;
-}
-.dbl-2 div{
-    position: absolute;
-    left:106px;
-}
-.dbl-3 div{
-    position: absolute;
-    left:180px;
-}
-.dbl-4 div{
-    position: absolute;
-    left:260px;
+    right:10px;
 }

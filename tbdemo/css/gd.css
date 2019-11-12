@@ -1,0 +1,265 @@
+#wk{
+    width:400px;
+    height:30px;
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px #5f646e;
+    border-radius: 8px;
+    color: #5f646e;
+    margin:10px;
+
+}
+#wk-1{
+    width:200px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #5F646E;
+    color:white;
+    font-size: 15px;
+    left:0;
+}
+#wk-2{
+    width:200px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left:200px;
+    bottom:30px;
+    background-color: white;
+    color:#5F646E;
+    font-size: 15px;
+    border-radius: 8px;
+}
+#h2{
+    font-size: 14px;
+    padding-left:7px;
+    color:#95999F;
+}
+/*导航链接*/
+#ww{
+    border:1px #E2E2E2 solid;
+    margin:10px;
+    position: relative;
+    display: flex;
+    height:1200px;
+}
+#ww1{
+     width:100%;
+     display: flex;
+     position: absolute;
+     justify-content: space-around;
+     align-items: center;
+     top:20px;
+ }
+.wa1{
+    height:60px;
+    width:60px;
+}
+.wa1 img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.wa1 div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F646E;
+    font-size: 10px;
+}
+/*第二行*/
+#ww2{
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    top:150px;
+}
+.wa2{
+    height:60px;
+    width:60px;
+}
+.wa2 img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.wa2 div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F646E;
+    font-size: 10px;
+}
+/*第三行*/
+#ww3{
+     width:100%;
+     display: flex;
+     position: absolute;
+     justify-content: space-around;
+     align-items: center;
+     top:280px;
+ }
+.wa3{
+    height:60px;
+    width:60px;
+}
+.wa3 img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.wa3 div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F646E;
+    font-size: 10px;
+}
+/*第四行*/
+#ww4{
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    top:410px;
+}
+.wa4{
+    height:60px;
+    width:60px;
+}
+.wa4 img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.wa4 div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F646E;
+    font-size: 10px;
+}
+/*第五行*/
+#ww5{
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    top:540px;
+}
+.wa5{
+    height:60px;
+    width:60px;
+}
+.wa5 img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.wa5 div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F646E;
+    font-size: 10px;
+}
+/*第六行*/
+#ww6{
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    top:670px;
+}
+.wa6{
+    height:60px;
+    width:60px;
+}
+.wa6 img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.wa6 div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F646E;
+    font-size: 10px;
+}
+/*第七行*/
+#ww7{
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    top:800px;
+}
+.wa7{
+    height:60px;
+    width:60px;
+}
+.wa7 img{
+    height:100%;
+    width:100%;
+    border-radius: 8px;
+}
+.wa7 div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F646E;
+    font-size: 10px;
+}
+/*第八行*/
+#ww8{
+    width:100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    top:930px;
+    left:18px;
+}
+#ww8 div{
+    height:60px;
+    width:60px;
+}
+#ww8 div img{
+    height:100%;
+    width:100%;
+}
+#ww8 div div{
+    width:100%;
+    display: flex;
+    position: absolute;
+    left:6px;
+    color: #5F646E;
+    font-size: 10px;
+}
+#h3{
+    font-size: 14px;
+    padding-left:7px;
+    color:#95999F;
+    position: absolute;
+    bottom:-500px;
+}
