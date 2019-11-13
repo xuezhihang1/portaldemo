@@ -1,7 +1,3 @@
-#wk{
-    display: flex;
-    position: relative;
-}
 /*标头*/
 #btl{
     width: 100%;
@@ -9,7 +5,8 @@
     background-color: #FF852A;
     padding: 6px 9px 6px 42px;
     display: flex;
-    position: absolute;
+    z-index: 1;
+    position: fixed;
 }
 #btl-1{
     width:35px;
@@ -87,7 +84,7 @@
 /*中部导航链接*/
 #zb{
     display: flex;
-    position: absolute;
+    position: relative;
     width:100%;
 }
 #zb-1{
@@ -154,25 +151,120 @@
 #gg{
     display: flex;
     position: absolute;
-    justify-content: center;
-    align-content: center;
     width: 100%;
     top:290px;
+    padding-bottom: 20px;
 }
-#gg img{
+#gg div{
+    width:100%;
+    height:100px;
+}
+#gg a img{
     width: 100%;
 }
 /*下部图片*/
-#ggl{
-    display: flex;
+#ggl-1{
+    display: block;
     position: absolute;
-    justify-content: center;
-    align-content: center;
     width: 100%;
     top:355px;
 }
-#ggl img{
+#gl1{
+    display: flex;
+    position: absolute;
+    width:100%;
+}
+#gl1  div{
+    width:100%;
+    height:100px;
+}
+#gl1  div img{
+    width:100%;
+    height:100%;
+}
+#gl2{
+    display: flex;
+    position: absolute;
+    width:100%;
+    top:90px;
+}
+#gl2  div{
+    width:100%;
+    height:100px;
+}
+#gl2  div img{
+    width:100%;
+    height:100%;
+}
+#ggl-2{
+    height:120px;
+    display: block;
+    position: absolute;
     width: 100%;
+    top:750px;
+}
+#gl3{
+    display: flex;
+    position: relative;
+    width:100%;
+    bottom:210px;
+}
+#gl3  div{
+    width:100%;
+    height:120px;
+}
+#gl3  div img{
+    width:100%;
+    height:100%;
+}
+#gl4{
+    display: flex;
+    position: relative;
+    width:100%;
+    bottom:205px;
+}
+#gl4  div{
+    width:100%;
+    height:120px;
+}
+#gl4  div img{
+    width:100%;
+    height:100%;
+}
+#ggl-3{
+    height:120px ;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top:1000px;
+}
+#gl5{
+    display: flex;
+    position: relative;
+    width:100%;
+    bottom:210px;
+}
+#gl5  div{
+    width:100%;
+    height:120px;
+}
+#gl5  div img{
+    width:100%;
+    height:100%;
+}
+#gl6{
+    display: flex;
+    position: relative;
+    width:100%;
+    bottom:205px;
+}
+#gl6  div{
+    width:100%;
+    height:140px;
+}
+#gl6  div img{
+    width:100%;
+    height:100%;
 }
 /*右侧链接*/
 #lz1{
@@ -204,12 +296,14 @@
 /*底部功能栏*/
 #dbl{
     width:100%;
-    height:50px;
+    height:40px;
     display: flex;
     position: fixed;
     justify-content: space-around;
     align-items: center;
-    bottom: 10px;
+    bottom:10px;
+    background-color: white;
+    padding-bottom: 5px;
 }
 .dbl-1{
     width:22px;
