@@ -2,10 +2,6 @@ body {
     background-color:#F6F6F6;  /*调整背景颜色*/
     margin:0;     /*取消外边距*/
 }
-div {
-    /*border:1px red solid;*/
-    /*font-size:36px;*/
-}
 a {
     text-decoration: none     /*消除a标签下划线*/
 }

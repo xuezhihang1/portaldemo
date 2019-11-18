@@ -84,7 +84,7 @@
 /*中部导航链接*/
 #zb{
     display: flex;
-    position: relative;
+    position: absolute;
     width:100%;
 }
 #zb-1{
@@ -273,7 +273,7 @@
     display: flex;
     position:fixed;
     right:10px;
-    top:420px;
+    top:600px;
 }
 #lz1 a img{
     height:100%;
@@ -285,7 +285,7 @@
     display:flex;
     position:fixed;
     right:8px;
-    top:470px;
+    top:650px;
     background-color: #FF5B00;
     border-radius: 7px;
     font-size: 8px;
